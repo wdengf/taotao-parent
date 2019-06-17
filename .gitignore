@@ -9,4 +9,10 @@ out
 gen
 target/
 *.log
-/velocity.log.1
+velocity.log.1
+taotao-common/src/test/
+taotao-manager/taotao-manager-common/src/test/
+taotao-manager/taotao-manager-rpc-api/src/main/resources/
+taotao-manager/taotao-manager-rpc-api/src/test/
+taotao-manager/taotao-manager-rpc-service/src/test/
+taotao-manager/taotao-manager-web/src/test/
