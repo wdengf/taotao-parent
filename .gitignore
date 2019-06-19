@@ -16,3 +16,5 @@ taotao-manager/taotao-manager-rpc-api/src/main/resources/
 taotao-manager/taotao-manager-rpc-api/src/test/
 taotao-manager/taotao-manager-rpc-service/src/test/
 taotao-manager/taotao-manager-web/src/test/
+/velocity.log
+/velocity.log.1

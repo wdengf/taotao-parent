@@ -4,6 +4,9 @@ import com.wdengf.taotao.common.base.BaseServiceMock;
 import com.taotao.wdengf.dao.mapper.TbItemCatMapper;
 import com.taotao.wdengf.dao.model.TbItemCat;
 import com.taotao.wdengf.dao.model.TbItemCatExample;
+import com.wdengf.taotao.manager.common.pojo.EasyUITreeNode;
+
+import java.util.List;
 
 /**
 * 降级实现TbItemCatService接口
@@ -11,4 +14,8 @@ import com.taotao.wdengf.dao.model.TbItemCatExample;
 */
 public class TbItemCatServiceMock extends BaseServiceMock<TbItemCatMapper, TbItemCat, TbItemCatExample> implements TbItemCatService {
 
+    @Override
+    public List<EasyUITreeNode> getItemCatList(long parentId) {
+        return null;
+    }
 }
