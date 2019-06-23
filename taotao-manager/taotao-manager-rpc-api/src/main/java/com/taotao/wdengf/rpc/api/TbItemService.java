@@ -1,10 +1,10 @@
 package com.taotao.wdengf.rpc.api;
 
-import com.wdengf.taotao.manager.common.pojo.EasyUIDataGridResult;
-import com.wdengf.taotao.manager.common.pojo.TaotaoResult;
-import com.wdengf.taotao.common.base.BaseService;
 import com.taotao.wdengf.dao.model.TbItem;
 import com.taotao.wdengf.dao.model.TbItemExample;
+import com.wdengf.taotao.common.base.BaseService;
+import com.wdengf.taotao.common.util.pojo.EasyUIDataGridResult;
+import com.wdengf.taotao.common.util.pojo.TaotaoResult;
 
 /**
 * TbItemService接口

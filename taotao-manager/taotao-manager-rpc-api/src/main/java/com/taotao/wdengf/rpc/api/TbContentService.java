@@ -3,6 +3,10 @@ package com.taotao.wdengf.rpc.api;
 import com.wdengf.taotao.common.base.BaseService;
 import com.taotao.wdengf.dao.model.TbContent;
 import com.taotao.wdengf.dao.model.TbContentExample;
+import com.wdengf.taotao.common.util.pojo.TaotaoResult;
+
+
+import java.util.List;
 
 /**
 * TbContentService接口
@@ -10,4 +14,6 @@ import com.taotao.wdengf.dao.model.TbContentExample;
 */
 public interface TbContentService extends BaseService<TbContent, TbContentExample> {
 
+    List<TbContent> getContentByCid(long cid);
+    TaotaoResult addContent(TbContent content);
 }

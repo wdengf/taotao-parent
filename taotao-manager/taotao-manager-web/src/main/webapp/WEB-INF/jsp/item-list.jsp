@@ -1,6 +1,8 @@
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<c:set var="basePath" value="${pageContext.request.contextPath}"/>
 <table class="easyui-datagrid" id="itemList" title="商品列表" 
-       data-options="singleSelect:false,collapsible:true,pagination:true,url:'${pageContext.request.contextPath}/item/list',method:'get',pageSize:30,toolbar:toolbar">
+       data-options="singleSelect:false,collapsible:true,pagination:true,url:'${basePath}/item/list',method:'get',pageSize:30,toolbar:toolbar">
     <thead>
         <tr>
         	<th data-options="field:'ck',checkbox:true"></th>
